@@ -6,8 +6,55 @@
     "uniqueID": 1726085014027,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1726085079736,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.28068043742405835,
+            "y": 0.4832041343669251,
+            "uniqueID": 1726085082989,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4878493317132442,
+            "y": 0.4832041343669251,
+            "uniqueID": 1726085086001,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726085082989
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1726085082989,
+            "ap2ID": 1726085086001
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
