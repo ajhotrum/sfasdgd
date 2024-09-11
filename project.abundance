@@ -49,6 +49,45 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Inner Molecule",
+            "x": 0.4987849331713244,
+            "y": 0.7777777777777777,
+            "uniqueID": 1726085255101,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1726085255015,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.3554070473876063,
+                    "y": 0.5452196382428941,
+                    "uniqueID": 1726085296690,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
