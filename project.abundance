@@ -53,10 +53,15 @@
         {
             "atomType": "Molecule",
             "name": "Inner Molecule",
-            "x": 0.4987849331713244,
-            "y": 0.7777777777777777,
+            "x": 0.4963547995139733,
+            "y": 0.7571059431524547,
             "uniqueID": 1726085255101,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "name1",
+                    "ioValue": 1726085082989
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -83,6 +88,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.5478036175710594,
+                    "uniqueID": 1726085744683,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -97,6 +110,13 @@
             "ap2Primary": true,
             "ap1ID": 1726085082989,
             "ap2ID": 1726085086001
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "name1",
+            "ap2Primary": false,
+            "ap1ID": 1726085082989,
+            "ap2ID": 1726085255101
         },
         {
             "ap1Name": "geometry",
