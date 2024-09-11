@@ -13,7 +13,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726085079736,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1726085086001
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -53,10 +58,17 @@
             "ap2Primary": true,
             "ap1ID": 1726085082989,
             "ap2ID": 1726085086001
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726085086001,
+            "ap2ID": 1726085079736
         }
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
