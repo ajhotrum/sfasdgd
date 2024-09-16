@@ -70,7 +70,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1726085255015,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1726085296690
+                        }
+                    ]
                 },
                 {
                     "atomType": "RegularPolygon",
@@ -81,7 +86,7 @@
                     "ioValues": [
                         {
                             "name": "number of sides",
-                            "ioValue": 6
+                            "ioValue": 1726085082989
                         },
                         {
                             "name": "diameter",
@@ -98,9 +103,24 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1726085296690,
+                    "ap2ID": 1726085255015
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "number of sides",
+                    "ap2Primary": false,
+                    "ap1ID": 1726085744683,
+                    "ap2ID": 1726085296690
+                }
+            ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [
